@@ -1,0 +1,21 @@
+{
+  "name": "uglifyjs-test-sourcemaps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "build1": "grunt clean concat uglify",
+    "build2": "grunt clean concat && node save-sources.js && uglifyjs --mangle --source-map-url=out.js.map --in-source-map=build/out/out.js.map --source-map-include-sources --preamble=\"/* awww yisss */\" --source-map=build/out/out.js.map --output=build/out/out.js build/out/out.js && node write-sources.js",
+    "serve": "http-server build"
+  },
+  "author": "saibotsivad",
+  "license": "VOL",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-uglify": "^0.11.0",
+    "http-server": "^0.8.5",
+    "uglify-js": "2.4.16"
+  }
+}
