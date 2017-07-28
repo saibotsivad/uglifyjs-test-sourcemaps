@@ -1,5 +1,7 @@
 # uglifyjs-test-sourcemaps
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/saibotsivad/uglifyjs-test-sourcemaps.svg)](https://greenkeeper.io/)
+
 A repo to hold a test app for uglifyjs testing
 
 You can serve with whatever, but `http-serve` is pretty nice. `npm install -g http-serve`
