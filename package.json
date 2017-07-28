@@ -11,11 +11,11 @@
   "author": "saibotsivad",
   "license": "VOL",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-clean": "^0.7.0",
-    "grunt-contrib-concat": "^0.5.1",
-    "grunt-contrib-uglify": "^0.11.0",
-    "http-server": "^0.8.5",
-    "uglify-js": "2.4.16"
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^3.0.1",
+    "http-server": "^0.10.0",
+    "uglify-js": "3.0.26"
   }
 }
